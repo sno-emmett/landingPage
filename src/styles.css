@@ -3,8 +3,8 @@
 }
 
 html, body {
-  margin: 0;
-  border: 0;
+  margin: 1em;
+  border: 1em;
   padding: 0;
   background-color: #fff;
 }
@@ -15,7 +15,10 @@ main {
   padding: 20px;
 }
 
-main > h1 {
+main > table.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  font-size: 3.5em;
+  min-height: 80vh;
 }
